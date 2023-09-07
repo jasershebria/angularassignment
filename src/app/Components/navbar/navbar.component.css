@@ -1,0 +1,9 @@
+.navbar{
+   background-color: var(--second-color);
+   transition: padding .5s ease-in-out;
+}
+
+.linkedactive{
+   background-color: #1abc9c;
+   border-radius: 5px;
+}

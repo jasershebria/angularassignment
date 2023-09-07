@@ -1,0 +1,20 @@
+
+   <div>
+      <div class="pcard" >
+         <img [src]="imgsrc" alt="img">
+         <div class="overlay" (click)="pcardclicked()">
+            <i class="text-white fa-solid fa-plus fa-6x"></i>
+         </div>
+      </div>
+   </div>
+
+   <div id="imgoverlay" [style.visibility]="cardclicked?'visible':'hidden'" (click)="pcardclicked()">
+      <div>
+         <img [src]="imgsrc" alt="img" >
+      </div>
+   </div>
+
+
+
+  
+

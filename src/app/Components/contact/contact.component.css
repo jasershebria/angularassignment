@@ -1,0 +1,14 @@
+div>input {
+   position: absolute;
+}
+
+div label {
+   position: relative;
+   bottom: 25px;
+   z-index: -1;
+   transition: all .5s ease-in-out;
+}
+
+div>input:focus+label {
+   bottom: 90px;
+}

@@ -1,0 +1,43 @@
+.pcard {
+  
+   position: relative;
+   overflow: hidden;
+   border-radius: 10px ;
+   
+}
+
+.pcard img{
+   width: 100%;
+   height: 100%;
+}
+
+.pcard .overlay{
+   width: 100%;
+   height: 100%;
+   background-color: var(--bgoverlay);
+   position: absolute;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+   transition: all .5s ease-in-out;
+}
+
+.pcard:hover .overlay{
+   opacity: 1;
+}
+
+
+#imgoverlay{
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   background-color: rgba(0, 0, 255, .1);
+   z-index: 11111111;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

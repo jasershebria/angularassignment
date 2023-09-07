@@ -1,0 +1,19 @@
+footer{
+   color: white;
+}
+
+footer ul li {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   margin-left: 5px;
+   border: 1px solid white;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer section:nth-child(2){
+   background-color: var(--t-color);
+}
